@@ -13,7 +13,7 @@ int main()
     }
     if( n2 > n1 && n2 > n3 )
     {
-        cout<< n2 << "is largest among others.\n";
+        cout<< n2 << " is largest among others.\n";
     }
     else
     cout << n3 << " is Largest among others.\n";
