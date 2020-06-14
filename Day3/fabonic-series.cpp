@@ -13,20 +13,20 @@ int main()
     {
         if( i == 1)
         {
-            cout << " " << t1 << endl;
-            continue;
+            cout << " " << t1 << ", ";
+            //continue;
         }
         if( i == 2)
         {
-            cout << " " << t2 << endl;
-            continue;
+            cout << " " << t2 << ", ";
+            //continue;
         } 
 
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
 
-        cout << nextTerm << endl; 
+        cout << " " << nextTerm << ", "; 
     } 
 
 }
