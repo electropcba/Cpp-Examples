@@ -10,4 +10,6 @@ int main()
     {
         cout << " Address of arr[" << i << "] is " << &arr[i] << "\n";
     }
+
+    return 0;
 }
