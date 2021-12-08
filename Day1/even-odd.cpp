@@ -15,7 +15,7 @@ int main()
         cout<< n << " is odd" << endl;
     }
 
-    
+    n=n+1;  // testing
     
     
 }
